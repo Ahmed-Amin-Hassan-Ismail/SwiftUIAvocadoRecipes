@@ -13,15 +13,12 @@ struct SplashView: View {
     
     @Binding var shouldShowSplashScreen: Bool
     
-    
     @State private var avocadoText = "AVOCADO".map({ String($0) })
     @State private var counter: Int = 0
     @State private var loop: Int = 0
     @State private var shouldShowAvocadoText: Bool = false
     
     @State private var timer = Timer.publish(every: 0.15, on: .main, in: .common).autoconnect()
-    
-    
     
     
     // MARK: - Body

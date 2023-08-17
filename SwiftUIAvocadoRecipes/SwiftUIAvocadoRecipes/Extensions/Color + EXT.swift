@@ -14,4 +14,5 @@ extension Color {
     static let lightShadow = Color("ColorBlackTransparentLight")
     
     static let lightGreen = Color("ColorGreenLight")
+    static let adaptiveGreen = Color("ColorGreenAdapt")
 }

@@ -19,6 +19,7 @@
 		ACBAC6E82A8E681E002E2A3B /* Image + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E72A8E681E002E2A3B /* Image + EXT.swift */; };
 		ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */; };
 		ACBAC6ED2A8E7664002E2A3B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */; };
+		ACBAC6EF2A8E7E90002E2A3B /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		ACBAC6E72A8E681E002E2A3B /* Image + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image + EXT.swift"; sourceTree = "<group>"; };
 		ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + EXT.swift"; sourceTree = "<group>"; };
 		ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */,
 				ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */,
+				ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				ACBAC6E82A8E681E002E2A3B /* Image + EXT.swift in Sources */,
 				ACBAC6DF2A8E66B4002E2A3B /* AvocadoRecipesView.swift in Sources */,
 				ACBAC6ED2A8E7664002E2A3B /* HeaderView.swift in Sources */,
+				ACBAC6EF2A8E7E90002E2A3B /* FooterView.swift in Sources */,
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
 				ACBAC6E22A8E66C4002E2A3B /* RipeningStagesView.swift in Sources */,

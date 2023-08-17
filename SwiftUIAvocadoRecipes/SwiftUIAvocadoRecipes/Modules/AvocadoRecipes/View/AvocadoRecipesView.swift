@@ -9,7 +9,16 @@ import SwiftUI
 
 struct AvocadoRecipesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(showsIndicators: false) {
+            
+            VStack(spacing: 40) {
+                
+                HeaderView()
+                   
+                FooterView()
+            }
+        }
+        .edgesIgnoringSafeArea(.top)
     }
 }
 

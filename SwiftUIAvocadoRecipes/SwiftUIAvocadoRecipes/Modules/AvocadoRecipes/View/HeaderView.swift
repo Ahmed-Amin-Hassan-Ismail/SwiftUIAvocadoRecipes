@@ -51,7 +51,7 @@ struct HeaderView: View {
             }
             .frame(height: 105)
             .padding([.leading, .bottom], 20)
-            .offset(y: showHeadline ? 0 : 400)
+            .offset(y: showHeadline ? 0 : -400)
             .animation(slideInAnimation)
         }
         .onAppear {
