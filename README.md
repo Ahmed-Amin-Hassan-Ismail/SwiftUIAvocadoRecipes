@@ -13,8 +13,6 @@ This SwiftUI app is all about my favorite mexican treat - Avocados! Recipes, nut
 * Use of @State and @Environment Property wrappers <br>
 
 <h1> App Images </h1>
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-18 at 00 43 24](https://github.com/Ahmed-Amin-Hassan-Ismail/SwiftUIAvocadoRecipes/assets/82684071/7622ec33-4b12-4ca2-8169-7a07f4382098)
-
 
 ![Simulator Screenshot - iPhone 14 Pro - 2023-08-18 at 00 43 35](https://github.com/Ahmed-Amin-Hassan-Ismail/SwiftUIAvocadoRecipes/assets/82684071/a622eead-a271-4b6f-902b-f410094d42bf)
 
