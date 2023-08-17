@@ -16,6 +16,7 @@ extension Color {
     static let lightGreen = Color("ColorGreenLight")
     static let adaptiveGreen = Color("ColorGreenAdapt")
     static let mediumGreen = Color("ColorGreenMedium")
+    static let darkGreen = Color("ColorGreenDark")
     
     static let appearanceAdapt = Color("ColorAppearanceAdapt")
 }

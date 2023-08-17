@@ -72,6 +72,14 @@ extension Image {
     static let avocadoCrunchyCelerySalsa = Image("avocado-crunchy-celery-salsa")
     static let avocadoGuacamoleTrio = Image("avocado-guacamole-trio")
     static let avocadoSmoothieBowl = Image("avocado-smoothie-bowl")
+    
+    /* Ripening */
+    
+    static let avocadoRipening1 = Image("avocado-ripening-1")
+    static let avocadoRipening2 = Image("avocado-ripening-2")
+    static let avocadoRipening3 = Image("avocado-ripening-3")
+    static let avocadoRipening4 = Image("avocado-ripening-4")
+    static let avocadoRipening5 = Image("avocado-ripening-5")
 }
 
 

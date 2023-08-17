@@ -33,6 +33,7 @@
 		ACBAC70B2A8EAF25002E2A3B /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC70A2A8EAF25002E2A3B /* RecipeRatingView.swift */; };
 		ACBAC70E2A8EAFE2002E2A3B /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC70D2A8EAFE2002E2A3B /* RecipeCookingView.swift */; };
 		ACBAC7122A8EB29F002E2A3B /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC7112A8EB29F002E2A3B /* RecipeDetails.swift */; };
+		ACBAC7142A8EBA95002E2A3B /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC7132A8EBA95002E2A3B /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		ACBAC70A2A8EAF25002E2A3B /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		ACBAC70D2A8EAFE2002E2A3B /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		ACBAC7112A8EB29F002E2A3B /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
+		ACBAC7132A8EBA95002E2A3B /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBAC6E12A8E66C4002E2A3B /* RipeningStagesView.swift */,
+				ACBAC7132A8EBA95002E2A3B /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				ACBAC6F22A8E8068002E2A3B /* HeaderModel.swift in Sources */,
 				ACBAC7072A8EA8AC002E2A3B /* RecipeModel.swift in Sources */,
 				ACBAC70E2A8EAFE2002E2A3B /* RecipeCookingView.swift in Sources */,
+				ACBAC7142A8EBA95002E2A3B /* RipeningView.swift in Sources */,
 				ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */,
 				ACBAC6F42A8E9348002E2A3B /* DishesView.swift in Sources */,
 			);
