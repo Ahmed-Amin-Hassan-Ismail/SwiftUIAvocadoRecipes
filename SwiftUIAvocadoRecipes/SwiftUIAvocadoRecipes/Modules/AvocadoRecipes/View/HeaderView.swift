@@ -11,6 +11,8 @@ struct HeaderView: View {
     
     // MARK: - PROPERTIES
     
+    private let header: Header
+    
     @State private var showHeadline: Bool = false
     
     private var slideInAnimation: Animation {
@@ -21,47 +23,80 @@ struct HeaderView: View {
         .delay(0.25)
     }
     
+    // MARK: - Init
+    init(header: Header) {
+        
+        self.header = header
+    }
+    
     var body: some View {
-        ZStack(alignment: .bottomLeading) {
-            Image.avocadoSlice1
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-            
-            HStack(alignment: .center, spacing: 0) {
-                Rectangle()
-                    .fill(Color.lightGreen)
-                    .frame(width: 4)
+            ZStack(alignment: .bottomLeading) {
                 
-                VStack(alignment: .leading) {
-                    Text("Avocado".uppercased())
-                        .font(.system(.title, design: .serif))
-                        .fontWeight(.bold)
-                        .foregroundColor(.white)
-                    
-                    Text("Avocados are a powerhouse ingredient at any meal for anyone.")
-                        .font(.footnote)
-                        .foregroundColor(.white)
-                        .lineLimit(2)
-                        .multilineTextAlignment(.leading)
-                }
-                .shadow(radius: 3)
-                .padding(.horizontal, 20)
-                .frame(width: 281, height: 105)
-                .background(Color.lightShadow)
+                imageView
+                
+                avocadoTile
             }
-            .frame(height: 105)
-            .padding([.leading, .bottom], 20)
-            .offset(y: showHeadline ? 0 : -400)
-            .animation(slideInAnimation)
-        }
         .onAppear {
             showHeadline.toggle()
         }
     }
 }
 
+// MARK: - SETUP VIEW
+
+extension HeaderView {
+    
+    private var imageView: some View {
+        
+        header.image
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+    }
+    
+    private var avocadoTile: some View {
+        
+        HStack(alignment: .center, spacing: 0) {
+            rectangleView
+            
+            avocadoTitle
+        }
+        .frame(height: 105)
+        .padding([.leading, .bottom], 20)
+        .offset(y: showHeadline ? 0 : 400)
+        .animation(slideInAnimation)
+    }
+    
+    private var rectangleView: some View {
+        
+        Rectangle()
+            .fill(Color.lightGreen)
+            .frame(width: 4)
+    }
+    
+    private var avocadoTitle: some View {
+        
+        VStack(alignment: .leading) {
+            Text(header.headline.uppercased())
+                .font(.system(.title, design: .serif))
+                .fontWeight(.bold)
+                .foregroundColor(.white)
+            
+            Text(header.subheadline)
+                .font(.footnote)
+                .foregroundColor(.white)
+                .lineLimit(2)
+                .multilineTextAlignment(.leading)
+        }
+        .shadow(radius: 3)
+        .padding(.horizontal, 20)
+        .frame(width: 281, height: 105)
+        .background(Color.lightShadow)
+    }
+    
+}
+
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(header: headersData[0])
     }
 }

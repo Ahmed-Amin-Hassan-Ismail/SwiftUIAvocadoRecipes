@@ -20,6 +20,7 @@
 		ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */; };
 		ACBAC6ED2A8E7664002E2A3B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */; };
 		ACBAC6EF2A8E7E90002E2A3B /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */; };
+		ACBAC6F22A8E8068002E2A3B /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + EXT.swift"; sourceTree = "<group>"; };
 		ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				ACBAC6B52A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift */,
 				ACBAC6E62A8E6814002E2A3B /* Extensions */,
+				ACBAC6F02A8E8055002E2A3B /* Models */,
 				ACBAC6CC2A8E5D25002E2A3B /* Modules */,
 				ACBAC6CA2A8E5CC6002E2A3B /* Resources */,
 				ACBAC6C92A8E5C54002E2A3B /* Info.plist */,
@@ -208,6 +211,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		ACBAC6F02A8E8055002E2A3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -288,6 +299,7 @@
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
 				ACBAC6E22A8E66C4002E2A3B /* RipeningStagesView.swift in Sources */,
+				ACBAC6F22A8E8068002E2A3B /* HeaderModel.swift in Sources */,
 				ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

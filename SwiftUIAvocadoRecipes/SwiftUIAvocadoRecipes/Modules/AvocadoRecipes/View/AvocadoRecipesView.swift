@@ -13,7 +13,14 @@ struct AvocadoRecipesView: View {
             
             VStack(spacing: 40) {
                 
-                HeaderView()
+                ScrollView(.horizontal, showsIndicators: true) {
+                    HStack(alignment: .top, spacing: 5) {
+                        ForEach(headersData) { header in
+                            HeaderView(header: header)
+                                .frame(height: 350)
+                        }
+                    }
+                }
                    
                 FooterView()
             }
