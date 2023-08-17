@@ -60,6 +60,18 @@ extension Image {
     static let avocadoFact10 = Image("avocado-fact-10")
     static let avocadoFact11 = Image("avocado-fact-11")
     static let avocadoFact12 = Image("avocado-fact-12")
+    
+    /* Recipe */
+    
+    static let avocadoCrostini = Image("avocado-crostini")
+    static let avocadoToastBacon = Image("avocado-toast-bacon")
+    static let avocadoToastHollandaise = Image("avocado-toast-hollandaise")
+    static let avocadoPizzaBacon = Image("avocado-pizza-bacon")
+    static let avocadoSaladEgg = Image("avocado-salad-egg")
+    static let avocadoSandwichTurkey = Image("avocado-sandwich-turkey")
+    static let avocadoCrunchyCelerySalsa = Image("avocado-crunchy-celery-salsa")
+    static let avocadoGuacamoleTrio = Image("avocado-guacamole-trio")
+    static let avocadoSmoothieBowl = Image("avocado-smoothie-bowl")
 }
 
 

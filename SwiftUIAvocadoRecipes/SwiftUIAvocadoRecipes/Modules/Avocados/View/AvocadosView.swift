@@ -29,7 +29,7 @@ struct AvocadosView: View {
                             radius: 10, x: 0, y: 0)
                     .scaleEffect(pulsateAnimation ? 1.0 : 0.9)
                     .opacity(pulsateAnimation ? 1.0 : 0.9)
-                    .animation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true))
+                    .animation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true), value: pulsateAnimation)
                 
                 Text("AVOCADOS")
                     .font(.system(size: 42, weight: .bold, design: .serif))

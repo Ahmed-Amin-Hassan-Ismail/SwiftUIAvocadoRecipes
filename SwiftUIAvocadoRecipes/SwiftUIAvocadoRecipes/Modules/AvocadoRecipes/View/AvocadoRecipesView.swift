@@ -17,8 +17,19 @@ struct AvocadoRecipesView: View {
                     .frame(height: 350)
                 
                 DishesView()
+                    .padding(.horizontal)
                 
                 FactsView()
+                
+                Text("Avocado Recipes")
+                    .fontWeight(.bold)
+                    .modifier(TextModifier())
+                
+                VStack(spacing: 16) {
+                    ForEach(recipesData) { recipe in
+                        RecipeCardView(recipe: recipe)
+                    }
+                }
                 
                 FooterView()
             }
