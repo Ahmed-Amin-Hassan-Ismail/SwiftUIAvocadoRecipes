@@ -24,7 +24,7 @@ struct SwiftUIAvocadoRecipesApp: App {
                     
                 } else {
                     
-                    HomeView()
+                    TabBarView()
                 }
                     
             }
