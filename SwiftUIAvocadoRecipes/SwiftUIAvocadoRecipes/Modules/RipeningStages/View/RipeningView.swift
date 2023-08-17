@@ -90,7 +90,7 @@ extension RipeningView {
                     .fill(Color.appearanceAdapt)
                     .frame(width: 120, height: 120)
             )
-            .offset(y: slideInAnimation ? -35 : -200 )
+            .offset(y: slideInAnimation ? -55 : -200 )
             .animation(.easeInOut(duration: 1.0), value: slideInAnimation)
     }
     

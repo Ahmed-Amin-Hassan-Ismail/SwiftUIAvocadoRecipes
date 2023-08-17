@@ -34,6 +34,7 @@
 		ACBAC70E2A8EAFE2002E2A3B /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC70D2A8EAFE2002E2A3B /* RecipeCookingView.swift */; };
 		ACBAC7122A8EB29F002E2A3B /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC7112A8EB29F002E2A3B /* RecipeDetails.swift */; };
 		ACBAC7142A8EBA95002E2A3B /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC7132A8EBA95002E2A3B /* RipeningView.swift */; };
+		ACBAC7162A8EC6C6002E2A3B /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC7152A8EC6C6002E2A3B /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		ACBAC70D2A8EAFE2002E2A3B /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		ACBAC7112A8EB29F002E2A3B /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		ACBAC7132A8EBA95002E2A3B /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		ACBAC7152A8EC6C6002E2A3B /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 				ACBAC7002A8E9EA2002E2A3B /* FactModel.swift */,
 				ACBAC7062A8EA8AC002E2A3B /* RecipeModel.swift */,
 				ACBAC7042A8EA88A002E2A3B /* RipeningModel.swift */,
+				ACBAC7152A8EC6C6002E2A3B /* SettingsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				ACBAC7012A8E9EA2002E2A3B /* FactModel.swift in Sources */,
 				ACBAC6EF2A8E7E90002E2A3B /* FooterView.swift in Sources */,
 				ACBAC7052A8EA88A002E2A3B /* RipeningModel.swift in Sources */,
+				ACBAC7162A8EC6C6002E2A3B /* SettingsModel.swift in Sources */,
 				ACBAC7122A8EB29F002E2A3B /* RecipeDetails.swift in Sources */,
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC70B2A8EAF25002E2A3B /* RecipeRatingView.swift in Sources */,
