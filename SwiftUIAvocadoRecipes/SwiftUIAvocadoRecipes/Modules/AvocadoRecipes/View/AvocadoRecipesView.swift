@@ -18,6 +18,8 @@ struct AvocadoRecipesView: View {
                 
                 DishesView()
                 
+                FactsView()
+                
                 FooterView()
             }
         }

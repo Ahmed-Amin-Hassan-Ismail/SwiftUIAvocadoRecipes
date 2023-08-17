@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DishesView: View {
     
-    
     var body: some View {
         
         VStack {

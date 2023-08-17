@@ -40,7 +40,7 @@ struct HeaderView: View {
 
 extension HeaderView {
     
-    private func setupHeaderView(header: Header) -> some View {
+    private func setupHeaderView(header: HeaderModel) -> some View {
         
         ZStack(alignment: .bottomLeading) {
             
@@ -50,14 +50,14 @@ extension HeaderView {
         }
     }
     
-    private func imageView(with header: Header) -> some View {
+    private func imageView(with header: HeaderModel) -> some View {
         
         header.image
             .resizable()
             .aspectRatio(contentMode: .fit)
     }
     
-    private func avocadoTile(with header: Header) -> some View {
+    private func avocadoTile(with header: HeaderModel) -> some View {
         
         HStack(alignment: .center, spacing: 0) {
             rectangleView()
@@ -77,7 +77,7 @@ extension HeaderView {
             .frame(width: 4)
     }
     
-    private func avocadoDiscription(with header: Header) -> some View {
+    private func avocadoDiscription(with header: HeaderModel) -> some View {
         
         VStack(alignment: .leading) {
             Text(header.headline.uppercased())

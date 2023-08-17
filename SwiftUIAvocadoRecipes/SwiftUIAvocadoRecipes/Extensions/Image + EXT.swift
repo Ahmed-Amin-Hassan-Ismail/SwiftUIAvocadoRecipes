@@ -45,6 +45,21 @@ extension Image {
     static let soup = Image("icon-soup")
     static let tacos = Image("icon-tacos")
     static let toasts = Image("icon-toasts")
+    
+    /* Facts */
+    
+    static let avocadoFact1 = Image("avocado-fact-1")
+    static let avocadoFact2 = Image("avocado-fact-2")
+    static let avocadoFact3 = Image("avocado-fact-3")
+    static let avocadoFact4 = Image("avocado-fact-4")
+    static let avocadoFact5 = Image("avocado-fact-5")
+    static let avocadoFact6 = Image("avocado-fact-6")
+    static let avocadoFact7 = Image("avocado-fact-7")
+    static let avocadoFact8 = Image("avocado-fact-8")
+    static let avocadoFact9 = Image("avocado-fact-9")
+    static let avocadoFact10 = Image("avocado-fact-10")
+    static let avocadoFact11 = Image("avocado-fact-11")
+    static let avocadoFact12 = Image("avocado-fact-12")
 }
 
 

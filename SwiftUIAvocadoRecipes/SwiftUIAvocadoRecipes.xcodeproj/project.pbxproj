@@ -25,6 +25,8 @@
 		ACBAC6F62A8E935C002E2A3B /* DishesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6F52A8E935C002E2A3B /* DishesModel.swift */; };
 		ACBAC6FB2A8E9AB9002E2A3B /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6FA2A8E9AB9002E2A3B /* ImageModifier.swift */; };
 		ACBAC6FD2A8E9C2E002E2A3B /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6FC2A8E9C2E002E2A3B /* TextModifier.swift */; };
+		ACBAC6FF2A8E9E74002E2A3B /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6FE2A8E9E74002E2A3B /* FactsView.swift */; };
+		ACBAC7012A8E9EA2002E2A3B /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC7002A8E9EA2002E2A3B /* FactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		ACBAC6F52A8E935C002E2A3B /* DishesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesModel.swift; sourceTree = "<group>"; };
 		ACBAC6FA2A8E9AB9002E2A3B /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
 		ACBAC6FC2A8E9C2E002E2A3B /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		ACBAC6FE2A8E9E74002E2A3B /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		ACBAC7002A8E9EA2002E2A3B /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */,
+				ACBAC6FE2A8E9E74002E2A3B /* FactsView.swift */,
 				ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */,
 				ACBAC6F32A8E9348002E2A3B /* DishesView.swift */,
 				ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */,
@@ -226,6 +231,7 @@
 			children = (
 				ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */,
 				ACBAC6F52A8E935C002E2A3B /* DishesModel.swift */,
+				ACBAC7002A8E9EA2002E2A3B /* FactModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBAC6E52A8E66CF002E2A3B /* SettingsView.swift in Sources */,
+				ACBAC6FF2A8E9E74002E2A3B /* FactsView.swift in Sources */,
 				ACBAC6FD2A8E9C2E002E2A3B /* TextModifier.swift in Sources */,
 				ACBAC6F62A8E935C002E2A3B /* DishesModel.swift in Sources */,
 				ACBAC6DC2A8E6596002E2A3B /* AvocadosView.swift in Sources */,
@@ -317,6 +324,7 @@
 				ACBAC6E82A8E681E002E2A3B /* Image + EXT.swift in Sources */,
 				ACBAC6DF2A8E66B4002E2A3B /* AvocadoRecipesView.swift in Sources */,
 				ACBAC6ED2A8E7664002E2A3B /* HeaderView.swift in Sources */,
+				ACBAC7012A8E9EA2002E2A3B /* FactModel.swift in Sources */,
 				ACBAC6EF2A8E7E90002E2A3B /* FooterView.swift in Sources */,
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
