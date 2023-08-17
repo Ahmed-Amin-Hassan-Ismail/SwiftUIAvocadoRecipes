@@ -11,8 +11,6 @@ struct HeaderView: View {
     
     // MARK: - PROPERTIES
     
-    private let header: Header
-    
     @State private var showHeadline: Bool = false
     
     private var slideInAnimation: Animation {
@@ -23,19 +21,15 @@ struct HeaderView: View {
         .delay(0.25)
     }
     
-    // MARK: - Init
-    init(header: Header) {
-        
-        self.header = header
-    }
-    
     var body: some View {
-            ZStack(alignment: .bottomLeading) {
-                
-                imageView
-                
-                avocadoTile
+        
+        ScrollView(.horizontal, showsIndicators: true) {
+            HStack(alignment: .top, spacing: 5) {
+                ForEach(headersData) { header in
+                    setupHeaderView(header: header)
+                }
             }
+        }
         .onAppear {
             showHeadline.toggle()
         }
@@ -46,19 +40,29 @@ struct HeaderView: View {
 
 extension HeaderView {
     
-    private var imageView: some View {
+    private func setupHeaderView(header: Header) -> some View {
+        
+        ZStack(alignment: .bottomLeading) {
+            
+            imageView(with: header)
+            
+            avocadoTile(with: header)
+        }
+    }
+    
+    private func imageView(with header: Header) -> some View {
         
         header.image
             .resizable()
             .aspectRatio(contentMode: .fit)
     }
     
-    private var avocadoTile: some View {
+    private func avocadoTile(with header: Header) -> some View {
         
         HStack(alignment: .center, spacing: 0) {
-            rectangleView
+            rectangleView()
             
-            avocadoTitle
+            avocadoDiscription(with: header)
         }
         .frame(height: 105)
         .padding([.leading, .bottom], 20)
@@ -66,14 +70,14 @@ extension HeaderView {
         .animation(slideInAnimation)
     }
     
-    private var rectangleView: some View {
+    private func rectangleView() -> some View {
         
         Rectangle()
             .fill(Color.lightGreen)
             .frame(width: 4)
     }
     
-    private var avocadoTitle: some View {
+    private func avocadoDiscription(with header: Header) -> some View {
         
         VStack(alignment: .leading) {
             Text(header.headline.uppercased())
@@ -97,6 +101,6 @@ extension HeaderView {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(header: headersData[0])
+        HeaderView()
     }
 }

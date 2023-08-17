@@ -34,6 +34,17 @@ extension Image {
     static let avocadoSlice4 = Image("avocado-slice-4")
     static let avocadoSlice5 = Image("avocado-slice-5")
     static let avocadoSlice6 = Image("avocado-slice-6")
+    
+    /* Dishes */
+    
+    static let guacamole = Image("icon-guacamole")
+    static let halfavo = Image("icon-halfavo")
+    static let salads = Image("icon-salads")
+    static let sandwiches = Image("icon-sandwiches")
+    static let smoothies = Image("icon-smoothies")
+    static let soup = Image("icon-soup")
+    static let tacos = Image("icon-tacos")
+    static let toasts = Image("icon-toasts")
 }
 
 

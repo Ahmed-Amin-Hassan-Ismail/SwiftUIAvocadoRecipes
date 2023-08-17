@@ -21,6 +21,10 @@
 		ACBAC6ED2A8E7664002E2A3B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */; };
 		ACBAC6EF2A8E7E90002E2A3B /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */; };
 		ACBAC6F22A8E8068002E2A3B /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */; };
+		ACBAC6F42A8E9348002E2A3B /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6F32A8E9348002E2A3B /* DishesView.swift */; };
+		ACBAC6F62A8E935C002E2A3B /* DishesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6F52A8E935C002E2A3B /* DishesModel.swift */; };
+		ACBAC6FB2A8E9AB9002E2A3B /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6FA2A8E9AB9002E2A3B /* ImageModifier.swift */; };
+		ACBAC6FD2A8E9C2E002E2A3B /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6FC2A8E9C2E002E2A3B /* TextModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		ACBAC6F32A8E9348002E2A3B /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		ACBAC6F52A8E935C002E2A3B /* DishesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesModel.swift; sourceTree = "<group>"; };
+		ACBAC6FA2A8E9AB9002E2A3B /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
+		ACBAC6FC2A8E9C2E002E2A3B /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 			children = (
 				ACBAC6B52A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift */,
 				ACBAC6E62A8E6814002E2A3B /* Extensions */,
+				ACBAC6F92A8E9AA4002E2A3B /* Components */,
 				ACBAC6F02A8E8055002E2A3B /* Models */,
 				ACBAC6CC2A8E5D25002E2A3B /* Modules */,
 				ACBAC6CA2A8E5CC6002E2A3B /* Resources */,
@@ -181,6 +190,7 @@
 			children = (
 				ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */,
 				ACBAC6EC2A8E7664002E2A3B /* HeaderView.swift */,
+				ACBAC6F32A8E9348002E2A3B /* DishesView.swift */,
 				ACBAC6EE2A8E7E90002E2A3B /* FooterView.swift */,
 			);
 			path = View;
@@ -215,8 +225,18 @@
 			isa = PBXGroup;
 			children = (
 				ACBAC6F12A8E8068002E2A3B /* HeaderModel.swift */,
+				ACBAC6F52A8E935C002E2A3B /* DishesModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ACBAC6F92A8E9AA4002E2A3B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6FA2A8E9AB9002E2A3B /* ImageModifier.swift */,
+				ACBAC6FC2A8E9C2E002E2A3B /* TextModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBAC6E52A8E66CF002E2A3B /* SettingsView.swift in Sources */,
+				ACBAC6FD2A8E9C2E002E2A3B /* TextModifier.swift in Sources */,
+				ACBAC6F62A8E935C002E2A3B /* DishesModel.swift in Sources */,
 				ACBAC6DC2A8E6596002E2A3B /* AvocadosView.swift in Sources */,
 				ACBAC6D92A8E653C002E2A3B /* TabBarView.swift in Sources */,
 				ACBAC6E82A8E681E002E2A3B /* Image + EXT.swift in Sources */,
@@ -299,8 +321,10 @@
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
 				ACBAC6E22A8E66C4002E2A3B /* RipeningStagesView.swift in Sources */,
+				ACBAC6FB2A8E9AB9002E2A3B /* ImageModifier.swift in Sources */,
 				ACBAC6F22A8E8068002E2A3B /* HeaderModel.swift in Sources */,
 				ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */,
+				ACBAC6F42A8E9348002E2A3B /* DishesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
