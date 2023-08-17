@@ -37,7 +37,7 @@ struct SplashView: View {
             
             VStack(alignment: .center, spacing: 0) {
                 
-                Image("avocado")
+                Image(.avocado)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 240, height: 240)

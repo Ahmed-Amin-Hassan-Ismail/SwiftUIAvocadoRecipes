@@ -12,25 +12,25 @@ struct TabBarView: View {
         TabView {
             AvocadosView()
                 .tabItem {
-                    Image("tabicon-branch")
+                    Image(.branchTapbar)
                     Text("Avocados")
                 }
             
             AvocadoRecipesView()
                 .tabItem {
-                    Image("tabicon-book")
+                    Image(.bookTapbar)
                     Text("Recipes")
                 }
             
             RipeningStagesView()
                 .tabItem {
-                    Image("tabicon-avocado")
+                    Image(.avocadoTabbar)
                     Text("Ripeing")
                 }
             
             SettingsView()
                 .tabItem {
-                    Image("tabicon-settings")
+                    Image(.settingsTapbar)
                     Text("Settings")
                 }
         }

@@ -16,6 +16,7 @@
 		ACBAC6DF2A8E66B4002E2A3B /* AvocadoRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */; };
 		ACBAC6E22A8E66C4002E2A3B /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E12A8E66C4002E2A3B /* RipeningStagesView.swift */; };
 		ACBAC6E52A8E66CF002E2A3B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E42A8E66CF002E2A3B /* SettingsView.swift */; };
+		ACBAC6E82A8E681E002E2A3B /* String + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E72A8E681E002E2A3B /* String + EXT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoRecipesView.swift; sourceTree = "<group>"; };
 		ACBAC6E12A8E66C4002E2A3B /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		ACBAC6E42A8E66CF002E2A3B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ACBAC6E72A8E681E002E2A3B /* String + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + EXT.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBAC6B52A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift */,
+				ACBAC6E62A8E6814002E2A3B /* Extensions */,
 				ACBAC6CC2A8E5D25002E2A3B /* Modules */,
 				ACBAC6CA2A8E5CC6002E2A3B /* Resources */,
 				ACBAC6C92A8E5C54002E2A3B /* Info.plist */,
@@ -188,6 +191,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		ACBAC6E62A8E6814002E2A3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6E72A8E681E002E2A3B /* String + EXT.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,6 +272,7 @@
 				ACBAC6E52A8E66CF002E2A3B /* SettingsView.swift in Sources */,
 				ACBAC6DC2A8E6596002E2A3B /* AvocadosView.swift in Sources */,
 				ACBAC6D92A8E653C002E2A3B /* TabBarView.swift in Sources */,
+				ACBAC6E82A8E681E002E2A3B /* String + EXT.swift in Sources */,
 				ACBAC6DF2A8E66B4002E2A3B /* AvocadoRecipesView.swift in Sources */,
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
