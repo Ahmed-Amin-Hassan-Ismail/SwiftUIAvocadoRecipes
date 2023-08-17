@@ -20,7 +20,7 @@ struct SwiftUIAvocadoRecipesApp: App {
                 if shouldShowSplashScreen {
                     
                     SplashView(shouldShowSplashScreen: $shouldShowSplashScreen)
-                        .transition(.move(edge: .leading))
+                        .transition(.move(edge: .bottom).animation(.spring()).combined(with: .opacity))
                     
                 } else {
                     
