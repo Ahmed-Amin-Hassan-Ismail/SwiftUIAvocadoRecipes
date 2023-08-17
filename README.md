@@ -1,2 +1,15 @@
 # SwiftUIAvocadoRecipes
- this repo to develop a complex Layout UI with swiftUI
+
+<h1> About </h1>
+This SwiftUI app is all about my favorite mexican treat - Avocados! Recipes, nutrition facts, ideas, this app has it all.
+
+<h1> Featuring </h1>
+* Light and Dark mode capabilities <br>
+* Custom Animations for better user interaction <br>
+* Various Scroll views <br>
+* Reading from JSON files <br>
+* AppIcons and Images <br>
+* Forms and Sections <br>
+* Use of @State and @Environment Property wrappers <br>
+
+<h1> App Images </h1>
