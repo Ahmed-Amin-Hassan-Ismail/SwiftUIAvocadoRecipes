@@ -8,31 +8,36 @@
 import SwiftUI
 
 struct TabBarView: View {
+    
     var body: some View {
         TabView {
             AvocadosView()
                 .tabItem {
-                    Image(.branchTapbar)
+                    Image.branchTapbar
                     Text("Avocados")
                 }
             
             AvocadoRecipesView()
                 .tabItem {
-                    Image(.bookTapbar)
+                    Image.bookTapbar
                     Text("Recipes")
                 }
             
             RipeningStagesView()
                 .tabItem {
-                    Image(.avocadoTabbar)
+                    Image.avocadoTabbar
                     Text("Ripeing")
                 }
             
             SettingsView()
                 .tabItem {
-                    Image(.settingsTapbar)
+                    Image.settingsTapbar
                     Text("Settings")
                 }
+        }
+        .onAppear {
+            
+            UITabBar.appearance().backgroundColor = .systemGray5
         }
         .edgesIgnoringSafeArea(.top)
         .accentColor(.primary)

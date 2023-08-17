@@ -16,7 +16,8 @@
 		ACBAC6DF2A8E66B4002E2A3B /* AvocadoRecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */; };
 		ACBAC6E22A8E66C4002E2A3B /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E12A8E66C4002E2A3B /* RipeningStagesView.swift */; };
 		ACBAC6E52A8E66CF002E2A3B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E42A8E66CF002E2A3B /* SettingsView.swift */; };
-		ACBAC6E82A8E681E002E2A3B /* String + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E72A8E681E002E2A3B /* String + EXT.swift */; };
+		ACBAC6E82A8E681E002E2A3B /* Image + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E72A8E681E002E2A3B /* Image + EXT.swift */; };
+		ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 		ACBAC6DE2A8E66B4002E2A3B /* AvocadoRecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadoRecipesView.swift; sourceTree = "<group>"; };
 		ACBAC6E12A8E66C4002E2A3B /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
 		ACBAC6E42A8E66CF002E2A3B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		ACBAC6E72A8E681E002E2A3B /* String + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + EXT.swift"; sourceTree = "<group>"; };
+		ACBAC6E72A8E681E002E2A3B /* Image + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image + EXT.swift"; sourceTree = "<group>"; };
+		ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + EXT.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +196,8 @@
 		ACBAC6E62A8E6814002E2A3B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				ACBAC6E72A8E681E002E2A3B /* String + EXT.swift */,
+				ACBAC6E72A8E681E002E2A3B /* Image + EXT.swift */,
+				ACBAC6E92A8E6A83002E2A3B /* Color + EXT.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -272,11 +275,12 @@
 				ACBAC6E52A8E66CF002E2A3B /* SettingsView.swift in Sources */,
 				ACBAC6DC2A8E6596002E2A3B /* AvocadosView.swift in Sources */,
 				ACBAC6D92A8E653C002E2A3B /* TabBarView.swift in Sources */,
-				ACBAC6E82A8E681E002E2A3B /* String + EXT.swift in Sources */,
+				ACBAC6E82A8E681E002E2A3B /* Image + EXT.swift in Sources */,
 				ACBAC6DF2A8E66B4002E2A3B /* AvocadoRecipesView.swift in Sources */,
 				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
 				ACBAC6E22A8E66C4002E2A3B /* RipeningStagesView.swift in Sources */,
+				ACBAC6EA2A8E6A83002E2A3B /* Color + EXT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
