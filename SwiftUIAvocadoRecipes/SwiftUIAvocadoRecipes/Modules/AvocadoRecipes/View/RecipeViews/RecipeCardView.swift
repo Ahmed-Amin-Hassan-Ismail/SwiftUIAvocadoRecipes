@@ -12,7 +12,9 @@ struct RecipeCardView: View {
     // MARK: - PROPERTIES
     
     @State private var shouldShowRecipeDetails: Bool = false
+    
     private let recipe: RecipeModel
+    private let hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
     
     
     
@@ -39,6 +41,7 @@ struct RecipeCardView: View {
                 radius: 8, x: 0, y: 0)
         .onTapGesture {
             withAnimation {
+                hapticImpact.impactOccurred()
                 shouldShowRecipeDetails = true
             }
         }
@@ -66,7 +69,6 @@ extension RecipeCardView {
                     .padding()
                 , alignment: .topTrailing
             )
-            //.cornerRadius(10)
     }
     
     private var recipeDetails: some View {
