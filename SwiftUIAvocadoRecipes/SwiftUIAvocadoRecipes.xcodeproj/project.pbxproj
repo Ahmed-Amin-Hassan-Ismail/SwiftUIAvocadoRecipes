@@ -8,19 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6B52A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift */; };
-		ACBAC6B82A8E4F34002E2A3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6B72A8E4F34002E2A3B /* ContentView.swift */; };
+		ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6B72A8E4F34002E2A3B /* SplashView.swift */; };
 		ACBAC6BD2A8E4F35002E2A3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBAC6BC2A8E4F35002E2A3B /* Preview Assets.xcassets */; };
 		ACBAC6C62A8E5A54002E2A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBAC6C52A8E5A54002E2A3B /* Assets.xcassets */; };
-		ACBAC6C82A8E5A74002E2A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACBAC6C72A8E5A74002E2A3B /* LaunchScreen.storyboard */; };
+		ACBAC6D12A8E6191002E2A3B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBAC6D02A8E6191002E2A3B /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACBAC6B22A8E4F34002E2A3B /* SwiftUIAvocadoRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAvocadoRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBAC6B52A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAvocadoRecipesApp.swift; sourceTree = "<group>"; };
-		ACBAC6B72A8E4F34002E2A3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACBAC6B72A8E4F34002E2A3B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ACBAC6BC2A8E4F35002E2A3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACBAC6C52A8E5A54002E2A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ACBAC6C72A8E5A74002E2A3B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACBAC6C92A8E5C54002E2A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ACBAC6D02A8E6191002E2A3B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +55,9 @@
 			isa = PBXGroup;
 			children = (
 				ACBAC6B52A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift */,
-				ACBAC6B72A8E4F34002E2A3B /* ContentView.swift */,
-				ACBAC6C72A8E5A74002E2A3B /* LaunchScreen.storyboard */,
-				ACBAC6C52A8E5A54002E2A3B /* Assets.xcassets */,
+				ACBAC6CC2A8E5D25002E2A3B /* Modules */,
+				ACBAC6CA2A8E5CC6002E2A3B /* Resources */,
+				ACBAC6C92A8E5C54002E2A3B /* Info.plist */,
 				ACBAC6BB2A8E4F35002E2A3B /* Preview Content */,
 			);
 			path = SwiftUIAvocadoRecipes;
@@ -68,6 +69,47 @@
 				ACBAC6BC2A8E4F35002E2A3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACBAC6CA2A8E5CC6002E2A3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6C52A8E5A54002E2A3B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ACBAC6CC2A8E5D25002E2A3B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6CE2A8E616E002E2A3B /* Home */,
+				ACBAC6CD2A8E5D31002E2A3B /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ACBAC6CD2A8E5D31002E2A3B /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6B72A8E4F34002E2A3B /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		ACBAC6CE2A8E616E002E2A3B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6CF2A8E618B002E2A3B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ACBAC6CF2A8E618B002E2A3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACBAC6D02A8E6191002E2A3B /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +170,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBAC6C82A8E5A74002E2A3B /* LaunchScreen.storyboard in Resources */,
 				ACBAC6C62A8E5A54002E2A3B /* Assets.xcassets in Resources */,
 				ACBAC6BD2A8E4F35002E2A3B /* Preview Assets.xcassets in Resources */,
 			);
@@ -141,7 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACBAC6B82A8E4F34002E2A3B /* ContentView.swift in Sources */,
+				ACBAC6D12A8E6191002E2A3B /* HomeView.swift in Sources */,
+				ACBAC6B82A8E4F34002E2A3B /* SplashView.swift in Sources */,
 				ACBAC6B62A8E4F34002E2A3B /* SwiftUIAvocadoRecipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +316,10 @@
 				DEVELOPMENT_TEAM = M4SYRBQBFW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAvocadoRecipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,9 +346,10 @@
 				DEVELOPMENT_TEAM = M4SYRBQBFW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAvocadoRecipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

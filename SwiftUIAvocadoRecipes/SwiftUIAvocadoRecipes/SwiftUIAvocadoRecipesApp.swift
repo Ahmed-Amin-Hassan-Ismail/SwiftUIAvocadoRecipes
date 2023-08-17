@@ -9,9 +9,25 @@ import SwiftUI
 
 @main
 struct SwiftUIAvocadoRecipesApp: App {
+    
+    // MARK: - Properties
+    
+    @State private var shouldShowSplashScreen: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                if shouldShowSplashScreen {
+                    
+                    SplashView(shouldShowSplashScreen: $shouldShowSplashScreen)
+                        .transition(.move(edge: .leading))
+                    
+                } else {
+                    
+                    HomeView()
+                }
+                    
+            }
         }
     }
 }
